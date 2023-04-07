@@ -51,7 +51,7 @@ class IdiomaService {
               });
             } else {
               return res.status(202).json({
-                message: "Lista de idiomas",
+                //message: "Lista de idiomas",
                 idiomas: idiomas,
               });
             }
