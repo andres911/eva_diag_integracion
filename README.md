@@ -17,6 +17,24 @@
 
 5.-Por ultimo en el docker-compose en la raiz del proyecto tenemos la siguiente configuracion
 
+En el cual establecemos 3 servicios: 
+  mongodb:
+    Donde usamos una imagen oficial de mongo de dockerhub
+    Establecemos la direccion de las variables de entorno para la conexion
+    Exponemos el puerto
+  
+  backend:
+    Definimos el contexto el cual nos permite buscar el archivo Dockerfile
+    Esteblecemos el puerto
+    La direccion de las variables de entorno
+    Indicamos que depende del servicio de mongodb
+    
+  frontend:
+    Al igual que el backend indicamos el contexto
+    Indicamos el puerto
+    Indicamos que depende del servicio del backend
+
+
 ![image](https://user-images.githubusercontent.com/56493087/230694675-a7cf22be-107c-40b4-b5d3-1fdc7392aea1.png)
 
 Imagen de funcionaldiad del contenedor
