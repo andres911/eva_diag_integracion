@@ -1,5 +1,5 @@
 1.- Primero creo el archivo de Dockerfile y .dockerignore para el backend
-!(Image text)(./assets/Captura.PNG)
+![image](https://user-images.githubusercontent.com/56493087/230694536-93d63a0d-eb34-41d5-9ba8-f7971198e913.png)
 
 2.- En el archivo archivo de dockerfile del backend lleva la siguinte configuracion
 !(Image text)(./assets/Captura2.PNG)
